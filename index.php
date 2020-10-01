@@ -1,9 +1,11 @@
+@@ -0,0 +1,67 @@
 <?php
 
 define('usdczk', 23);
 define('gbpczk', 30);
-$euro = filter_input(INPUT_POST, 'euro');
 define('euroczk', 27);
+$euro = filter_input(INPUT_POST, 'euro');
+
 $submit = filter_input(INPUT_POST, 'submit');
 $switch = filter_input(INPUT_POST, 'switch');
 ?>
